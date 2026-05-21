@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+# Environment variables
+.env
+
+# Virtual environments
+.venv
+submission_history.log
+
+# Persona templates - ignore all local custom personas but track the example
+persona/*
+!persona/persona-example.md
